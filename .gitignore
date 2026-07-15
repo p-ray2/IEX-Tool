@@ -1,0 +1,32 @@
+# Market data — far too large for git (pcap ~9GB, duckdb ~452GB)
+data/
+cache/
+env/
+*.pcap
+*.pcap.gz
+*.duckdb
+*.duckdb.wal
+
+# Generated reports and run logs
+logs/
+watchlist_levels.png
+*.png
+
+# Local launchd scheduling configs (contain absolute machine paths)
+com.iextool.*.plist
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
