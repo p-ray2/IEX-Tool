@@ -1,6 +1,6 @@
 # IEX Market Microstructure Analyzer
 
-Parses IEX exchange PCAP files (TOPS 1.6 and DPLS 1.0) into a local DuckDB database and provides CLI commands for market microstructure analysis.
+Parses IEX exchange PCAP files (TOPS 1.6 and DPLS 1.0) into a local DuckDB database and provides CLI commands for market microstructure analysis. Started this project in early April 2026. Still working on how to build out additional cloud storage solutions and automated pipelining. 
 
 ---
 
