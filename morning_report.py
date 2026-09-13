@@ -31,7 +31,7 @@ LOG_DIR  = os.path.join(BASE_DIR, "logs")
 PY       = sys.executable  # the venv python running this script
 
 # Keep in sync with levels_chart.WATCHLIST / squeeze_screener.DEFAULT_WATCHLIST
-WATCHLIST = ["VIRT", "WRB", "RPM", "FDS", "GDDY", "IBM", "OSUR", "INTU", "NVO", "CME", "MBC", "AI"]
+WATCHLIST = []
 
 # Same tuning we use for the manual absorption runs.
 ABSORB_FLAGS = ["--imbalance", "0.15", "--min-hours", "2",
